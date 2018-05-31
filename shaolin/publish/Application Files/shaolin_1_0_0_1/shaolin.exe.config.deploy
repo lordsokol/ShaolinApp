@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<appSettings>
+	<!--  General Settings -->
+		<add key="wordFileName"  value="ShaolinQuestions.Doc" />
+		<add key="wordFilePath"  value="c:\" />
+		<add key="beltLevel"  value="Black" /> 
+    <!-- <add key="wordLocation"  value="C:\\Program Files\\Microsoft Office\\OFFICE11\\winword.exe" /> -->
+    <add key="wordLocation"  value="C:\\Program Files (x86)\\Microsoft Office\\Office12\\winword.exe" />
+		
+	<!--  Data  -->			
+		<!---  Lohans  -->
+		<add key="totalLohansYellow"  value="5" />
+		<add key="totalLohansBlue"  value="15" />
+		<add key="totalLohansGreen"  value="22" />
+		<add key="totalLohansBrown"  value="30" />
+		<add key="totalLohansBlack"  value="30" />
+		<add key="lohan1"  value="Block-punch. Block down, step." />
+		<add key="lohan2"  value="Block-punch, block down, block-punch, twist hit-kick." />
+		<add key="lohan3"  value="Block-finger thrust, block-punch, twist hit-kick" />
+		<add key="lohan4"  value="Block, monkey grab, grab with other hand and pivot foot, front sweep." />
+		<add key="lohan5"  value="Double front kick." />
+		<add key="lohan6"  value="Block-punch, 2x twist-hit, block back (rbs), back fist (bs), twist hit, twist hit-kick." />
+		<add key="lohan7"  value="Block, monkey grab, grab w/other hand, pivot foot, front sweep, back sweep, front kick." />
+		<add key="lohan8"  value="2 front kicks, turn, 2 side thrusts." />
+		<add key="lohan9"  value="4 kicks ( 2 front kicks, side thrust, mule kick)." />
+		<add key="lohan10"  value="Inside block, vertical punch(hs) outside block vertical punch (hs)(churn butter)." />
+		<add key="lohan11"  value="Block, 3x hit-kick(reverse punches)." />
+		<add key="lohan12"  value="Elbow jab back, turn and reverse punch, block/strike down, stomp-kick, step and turn." />
+		<add key="lohan13"  value="Block (rbs), inside smash, front kick, finger thrust." />
+		<add key="lohan14"  value="Block (rbs), outside smash, blade kick." />
+		<add key="lohan15"  value="Block, monkey grab, grab with other hand, pivot foot, front sweep, pull-back trap, side thrust." />
+		<add key="lohan16"  value="Horizontal punch (hs), punch (bs), block-punch, block down." />
+		<add key="lohan17"  value="Block-punch (bs), punch (ns), block-punch (bs)." />
+		<add key="lohan18"  value="Block punch, wrist twist, strike, front sweep, front kick." />
+		<add key="lohan19"  value="Horizontal punch (hs) back fist (ns), reverse punch-kick (with front leg), twist hit kick." />
+		<add key="lohan20"  value="Block-punch, backfist, block-punch, front kick with block." />
+		<add key="lohan21"  value="Block, block/hit hit high, jump back block-hit low (hs) move forward, move back block up-reverse punch (cs)." />
+		<add key="lohan22"  value="Block,  block/hit hit high, jump forward block-hit low (hs) move back, move forward block up-reverse punch (cs)." />
+		<add key="lohan23"  value="Block-punch, back fist, 2x twist hit-backfist, block-punch, front kick with block (7 punches)." />
+		<add key="lohan24"  value="Block-punch (bs), reverse punch (cs) block-punch (bs), reverse punch (cs), block-punch (bs) (5 punches)." />
+		<add key="lohan25"  value="Block-punch, wrist-twist, strike, front sweep, back sweep-punch, front kick with block." />
+		<add key="lohan26"  value="Block-punch, block-grab, roundhouse kick." />
+		<add key="lohan27"  value="Double block, double punch (bs), double block (hs), block-punch (bs), twist hit kick, reverse punch-kick." />
+		<add key="lohan28"  value="Double block, double punch (bs), block-chop (cs), block-punch (bs), twist hit kick, reverse punch-kick." />
+		<add key="lohan29"  value="Step to rear and elbow-reverse punch, turn reverse-punch, block up-horizontal punch (cs), block ribs and 2x block-punch, block down." />
+		<add key="lohan30"  value="Step to rear and elbow-reverse punch, turn and step while blocking, spinning double smash, block-punch, wrist twist, strike, front sweep, front kick (Note there is an additional block-punch (bs) between the two halves of this question)." />
+		
+		<!-- Sparring Techniques  -->
+		<add key="totalSpTechsYellow"  value="10" />
+		<add key="totalSpTechsBlue"  value="10" />
+		<add key="totalSpTechsGreen"  value="15" />
+		<add key="totalSpTechsBrown"  value="20" />
+		<add key="spTech1"  value="Reverse punch. " />
+		<add key="spTech2"  value="Cat stance triple hit." />
+		<add key="spTech3"  value="Jump side thrust (to knee) front kick, reverse punch." />
+		<add key="spTech4"  value="Jump front sweep, front kick, reverse punch." />
+		<add key="spTech5"  value="Double reverse punch, jump front kick with block." />
+		<add key="spTech6"  value="Jump back sweep, front kick, reverse punch." />
+		<add key="spTech7"  value="Cross back hook kick." />
+		<add key="spTech8"  value="Jump monkey grab, front sweep, reverse punch." />
+		<add key="spTech9"  value="Jump side thrust, block down." />
+		<add key="spTech10"  value="Jump monkey grab, chop (with a yell)." />
+		<add key="spTech11"  value="Block down, reverse punch." />
+		<add key="spTech12"  value="Block down, reverse punch, block up and reverse punch." />
+		<add key="spTech13"  value="Block, 3 vertical punches, front kick with block." />
+		<add key="spTech14"  value="Side thrust, front kick, block, 3 vertical punches, step." />
+		<add key="spTech15"  value="Inside smash, spinning side thrust, block, 3 vertical punches, front kick with block." />
+		<add key="spTech16"  value="Jump front sweep, spinning hook kick, block and twist hit, roundhouse kick." />
+		<add key="spTech17"  value="Cross kick (trap the knee), roundhouse kick, 3 back fists." />
+		<add key="spTech18"  value="Jump back sweep, spinning hook kick, block and twist hit, roundhouse kick." />
+		<add key="spTech19"  value="Jump side thrust (to knee), jump side thrust, jump monkey grab, chop (with a yell)." />
+		<add key="spTech20"  value="Jump hook kick, block and twist hit, roundhouse kick, fist block down (rear hand), back fist (lead hand)." />
+		
+		<!-- Chin Na -->
+		<add key="totalChinNaYellow"  value="10" />
+		<add key="totalChinNaBlue"  value="20" />
+		<add key="totalChinNaGreen"  value="25" />
+		<add key="totalChinNaBrown"  value="30" />
+		<add key="ChinNa1"  value="Pull on wrist. \n -end in horse stance." />
+		<add key="ChinNa2"  value="Push on chest. \n - break, neck strike, grab back of neck and knee to face" />
+		<add key="ChinNa3"  value="Grab from behind \n - drop to HS w/STD series (stomp, kick, rake, head butt, etc." />
+		<add key="ChinNa4"  value="Wrist twist. \n - step in and strike attacker's elbow (inside) while R elbow to jaw, draw back and punch" />
+		<add key="ChinNa5"  value="Grab from behind and lift. \n - groin kick, drop to HS w/STD series, except NO STOMP/RAKE" />
+		<add key="ChinNa6"  value="Full nelson. \n - drop to HS (arms coming down to break hold) w/STD series" />
+		<add key="ChinNa7"  value="Front choke with hands.\n - tuck chin w/shoulders high, monkey grab attacker's arms, lunge back, kick or knee" />
+		<add key="ChinNa8"  value="Front hair grab. \n - slam hands on attacker's hand and press, lunge down low w/same leg, knee to groin" />
+		<add key="ChinNa9"  value="Hair grab from behind. \n - slam hands on attacker's, 1/2 step out(R) and swing opp. leg back, twist attacker's arm, cat stance and kick to face(R)" />
+		<add key="ChinNa10"  value="Head lock. \n - turn face in, kidney punch, 'superman' shoot through, sink into HS, elbow/hammerfist" />
+		<add key="ChinNa11"  value="Shirt Grab. \n - grab attacker thumb and twist while shifting weight, twist hit w/opp. fist to bicep and back fist to jaw" />
+		<add key="ChinNa12"  value="Elbow press. \n - drop to HS, grab attacker's wrist to trap, pull towards you over/under, elbow to face" />
+		<add key="ChinNa13"  value="Arm twisted behind back. \n - grab own wrist, lean back and step out, release hand and wrap attacker's arms, hit ribs with opposite fist" />
+		<add key="ChinNa14"  value="Choke with hands from behind. \n - tuck chin w/shoulders high, step out and look down/behind, hit groin, over the top w/same fist and hit jaw" />
+		<add key="ChinNa15"  value="Handshake. \n - cup hand, chop own elbow (hit the parrot), vertical punch to face" />
+		<add key="ChinNa16"  value="Hands clasped and twisted: low: middle: high. \n - High - open arms and knee
+	- Middle - rock back and forth, flip and press elbow over attackers, elbow and backfist
+	- Low - climb over arms, backfist" />
+		<add key="ChinNa17"  value="Arm choke from behind. \n - turn head and dig chin into attacker's arm, HS and STD series (step to crook of arm), NO HEAD BUTT" />
+		<add key="ChinNa18"  value="Wrist grab, shoulder press, push \n - run into wall, quick turn and back fist " />
+		<add key="ChinNa19"  value="Arm lock. \n  - (wrist is grabbed, pressure on elbow) - step leg behind attacker, beak own elbow while kneeing back of attacker's knee(R) and beaking towards face(R), pull R, punch L to ribs" />
+		<add key="ChinNa20"  value="Both wrists grabbed. \n - 'spit', punch w/L, grab attacker's wrist w/R, L hand rolls up to hit" />
+		<add key="ChinNa21"  value="Wrist grab \n - trap attacker's hand, roll R and press w/L elbow, inside kick w/L, elbow(L), backfist(L) as you cross step away" />
+		<add key="ChinNa22"  value="Wrist twisted up. \n - jump up and use weight to force hold to break, elbow low, elbow ribs, backfist" />
+		<add key="ChinNa23"  value="Indonesian Handcuff. \n - support wrist at fingers, step in front and backsweep while breaking hold, beak groin, then face" />
+		<add key="ChinNa24"  value="Arm lock with fingers grabbed. \n - (fingers are grabbed, pressure on wrist) - support wrist and curl fingers, step leg behind attacker, knee back of attacker's knee while breaking hold and patting opposite shoulder, beak groin, then face, pull(R), punch L to jaw" />
+		<add key="ChinNa25"  value="Arm choke from behind with wrist twisted behind back (2 variations). \n - grab thumb, turn head, HS and STD series (step to crook of arm), NO HEAD BUTT
+	- grab thumb and step out, rolling attacker's arm on own should to snap elbow" />
+		<add key="ChinNa26"  value="Wrist twisted up, palm up. \n – reverse of #22, jump up and use opposite(L) hand to hit attacker’s elbow to break grip, elbow(L)" />
+		<add key="ChinNa27"  value="Wrist twisted behind back (like a “7”). \n – similar to #12, make a beak with trapped hand, drop down to ease pressure, step around with L, punch L low/high" />
+		<add key="ChinNa28"  value="Reverse Indonesian handcuff. \n – similar to #23, curl fingers and grab with opposite hand, step in front and backsweep while bringing trapped elbow around to hit underside of attacker’s jaw, then back hit jaw again with same elbow" />
+		<add key="ChinNa29"  value="Reverse Indonesian handcuff, finger grabbed. \n – curl finger and grab hands, same as #28" />
+		<add key="ChinNa30"  value="Finger split. \n – you attack w/spear hand, opponent grabs and splits fingers – curl fingers and grab hand, remainder is #4." />
+		
+		<!-- One Step Sparring techniques and Fighting Techniques-->
+		<add key="totalOneStepYellow"  value="9" />
+		<add key="totalOneStepBlue"  value="9" />
+		<add key="totalOneStepGreen"  value="19" />
+		<add key="totalOneStepBrown"  value="19" />
+		<!--  One Step 1 through 9 are One Step Sparring Techniques 1 - 9   Ie Pu Tue Ta -->
+		<add key="OneStep1"  value="Outside block, horizontal punch." />
+		<add key="OneStep2"  value="Inside block, horizontal punch." />
+		<add key="OneStep3"  value="Outside block, chop, horizontal punch." />
+		<add key="OneStep4"  value="Inside block, chop, horizontal punch." />
+		<add key="OneStep5"  value="Outside block, side thrust." />
+		<add key="OneStep6"  value="Inside block, front kick." />
+		<add key="OneStep7"  value="Capture arm, break, elbow strike/chop to ribs, palm strike." />
+		<add key="OneStep8"  value="Block kick outside, kick under." />
+		<add key="OneStep9"  value="Block kick inside, double front kick." />
+		<!--  One Step 11 through 19 are One Step Fighting Techniques 1 - 10    Ie Pu Fa Shu -->
+		<add key="OneStep10"  value="Block, twist the arm, front kick." />
+		<add key="OneStep11"  value="Block, strike and throw/sweep, punch." />
+		<add key="OneStep12"  value="Block/hit, spinning wheel kick." />
+		<add key="OneStep13"  value="Block/hit, spinning elbow strike, back sweep, front kick." />
+		<add key="OneStep14"  value="Outside block, knee trap, 2x chop." />
+		<add key="OneStep15"  value="Block down, strike up. (bird)" />
+		<add key="OneStep16"  value="Double forearm block, back fist . (haymaker)" />
+		<add key="OneStep17"  value="Pivoting block, chop ribs, hit head (t’ai chi)." />
+		<add key="OneStep18"  value="Underhand stab (2 ways)." />
+		<add key="OneStep19"  value="Overhand stab (2 ways)." />
+		
+		<!--  forms -->
+		<add key="totalYellowForms"  value="0" />
+		<add key="totalBlueForms"  value="2" />
+		<add key="totalGreenForms"  value="4" />
+		<add key="totalBrownForms"  value="6" />
+		<add key="totalBlackForms"  value="14" />
+		<add key="form1"  value="Se Meng T'ao Lian (Reversibly Facing Four Opponents/Directions)" />
+		<add key="form2"  value="Fei Hu Ch'u Tung (Flying Tiger Comes Out Of The Cave)" />
+		<add key="form3"  value="T'ai P'eng Sin Kune (Great Bird Opens The Wings)" />
+		<add key="form4"  value="Se Mien Pa Fang Pang (Four Faces, Eight Directions Double End Staff)" />
+		<add key="form5"  value="Lohan Ch'ien (Fist Of The Enlightened One)" />
+		<add key="form6"  value="Pei Fang Ch'i Kai Pang (Short Stick Of The Northern Beggar)" />
+    <add key="form7"  value="Luo T’ien   (Descent From Heaven)" />
+    <add key="form8"  value="Ch’an Ie   (Spreading Of The Wings)" />
+    <add key="form9"  value="Yen He   (Performing Dove)" />
+    <add key="form10"  value="Pai Hao Ch’uan Tse (White Crane Circles The Wings (1st White Crane)" />
+    <add key="form11"  value="Pai Hao Huan Tse’  (White Crane Flips The Wings (2nd White Crane)" />
+    <add key="form12"  value="Pai Hao Huan Chao  (White Crane Flips The Legs (3rd White Crane)" />
+    <add key="form13"  value="Chie Ch’ien  (Connecting Fist)" />
+    <add key="form14"  value="Lien Wu Chang (Five Direction Palm) " />
+    <add key="form15"  value="Ching Kang Fu Hu Ch’ien (Tiger Descends Golden Mountain) " />
+    <add key="form16"  value="Hai Lung Ch’ang(Sea Dragon Cane)" />
+    <add key="form17"  value="Se Mien Pa Fang Kuen(4 Faces, 8 Directions Single End Staff)" />
+    <add key="form18"  value="Kwan Kung Tao(Kwan Kung’s Knife)" />
+    <add key="form19"  value="Yeh Ch’an Pa Fang Tao(Night Battle Eight Direction Broadsword)" />
+    <add key="form20"  value="T’ie Ch’a(Iron Ch’a)" />
+    <add key="form21"  value="TIEN TA SUANG ER CHIE KUEN (Single and Double Nunchaku)" />
+    <add key="form22"  value="Spear 1" />
+    <add key="form23"  value="Spear 2" />
+    <add key="form24"  value="Shangtung Black Tiger 1" />
+    <add key="form25"  value="Shangtung Black Tiger 2" />
+    <add key="form26"  value="Classical Pa Kua" />
+    
+
+    <!--  forms details-->
+    <add key="form1detail"  value="Form Details" />
+    <add key="form2detail"  value="Form Details" />
+    <add key="form3detail"  value="Form Details" />
+    <add key="form4detail"  value="Form Details" />
+    <add key="form5detail"  value="Form Details" />
+    <add key="form6detail"  value="Form Details" />
+    <add key="form7detail"  value="         
+      Bow, crossed hands (left hand open, right hand fist) rising and sinking. 
+      Step back right into horse stance (east), chop down with both hands, finger strike with both hands and bird call. 
+      Turn to left (north) Broken Bird stance while drawing in both fists, then dynamic tension out with San He Ch’ien breath. 
+      Step into a right bow with double finger strike, right high, left low.  
+      Step into a left bow with double finger strike, left high right low.  
+      Rotate into left bow (west) with double finger strike, right high and left low.  
+      Step into a right bow with double finger strike, left high and right low.  
+      Step back into right reverse bow, single finger strike with left hand.  
+      Chop down with both hands while rotating right (north), finger strike with both hands and bird call.
+      Slide back into a right reverse bow while rotating right (east), single finger strike with left hand. 
+      Clear with both hands (clockwise), and double finger strike out, left high and right low.  
+      Step into a right bow while clearing high with left hand and elbow/finger strike to eyes with right hand.  
+      Step back into a bird stance while unwinding arms (squatting on right leg, left leg broken bird; right hand blocking high and left blocking low in a beak).  
+      Rise up and shift weight forward into left bow a double finger strike out, left high, right low. 
+      Step into right bow and double finger strike out, right high, left low.  
+      Slide right leg back while rotating left (north) and into right reverse bow, single finger strike with left hand.  
+      Step into a right bow while clearing high with left hand and elbow/finger strike to eyes with right hand.  
+      Step back into a Bird Stance while unwinding arms (squatting on right leg, left leg broken bird; right hand blocking high and left blocking low in a beak).  
+      Rise to a left bow, punch low (L), middle (R), high (L), double front snap kick (RL).  
+      Land in left bow, doing double strike twin peaks. 
+      Rotate right (east) as you block high with left hand and low (past right knee) with right hand. 
+      Rotate right (south) into right cat stance as you block head with right hand (palm out) and torso with left hand (palm down).  
+      Step out into a left bow, strike under the chin with both hands palms open and facing in, step back with left leg into right bow, with hands in beaks striking down and behind you, step left while monkey grabbing with hands, triple attack (right front snap kick and double ridge hand).
+      Step into a right bow while clearing high with left hand, elbow/chop with right hand. 
+      Come up on right leg into a high bird stance on right leg facing east, unwinding arms, right high, left low.  
+      Dragon step left, turning 270 to face south with left beak down.  
+      Strike up with right hand in beak smash position, weight on right leg, left heel in mantis. 
+      Step into a right bow while clearing high with left hand, elbow/chop with right hand.
+      Step back into right reverse bow, single finger strike.  
+      Cross step right over left while pulling with both hands, straight leg kick left. Land right bow while clearing high with left hand, elbow/chop with right hand. 
+      Turn 180 to the left (north) ending in right reverse bow, clearing with right hand and left hand finger strike. 
+      Step into a right bow while clearing high with left hand, elbow/chop with right hand.
+      Strike on top of right hand with left side hand. Slide back into low left bow, double palm strike behind.  
+      Step back with left foot into natural stance while elbowing behind with right arm, right fist in open left hand. 
+      Crossed hands (left hand open, right hand fist) rising and sinking. 
+      Bow." />
+    
+    <add key="form8detail"  value="
+         Bow, elbow behind with right arm, right fist into open left hand. 
+         Cross open hands, right hand in front of left, breathing up and down, talons up and down.  
+         Look left, hop left into left bow while clearing clockwise then doing a double finger thrust, left high, right low. 
+         Hop right into right bow while clearing counter clockwise then doing a double finger thrust, right high, left low.  Repeat.  
+         Cross step (right in front of left), big hop left into a left bow while clearing clockwise then doing a double finger thrust, left high, right low. 
+         Step back left (west) into a horse stance, chop down and rise up finger strike out to both sides while making a bird call. 
+         Step back right (north) into a right reverse bow stance and single finger strike high with left hand. 
+         
+         Cross step right over left while pulling with both hands, straight leg kick left. 
+         Step onto left leg and bring right elbow to right knee/chop.  Land right bow.  
+         Cross step left over right while pulling with both hands, straight leg kick right. 
+         Step onto right leg and bring left elbow to left knee/chop.  Land left bow.
+         
+         Rotate right (east) as you block high with left hand and low (past right knee) with right hand.  
+         Cross left foot in front of right and beak low left with left hand, right hand palm up and chambered at the waist.  
+         Unwind arms counter clockwise as you jump around counter clockwise, landing facing north in a Bird Stance 
+         (squatting on left leg, right leg broken bird; left hand blocking high and right blocking low in a beak).  
+         Shift weight forward into right bow, single finger strike with right hand.  
+         Shift right leg back into reverse right bow, single finger strike with left hand. 
+         
+         Jump into San He stance on right while punching down with crossed fists, right over left. 
+         Draw fists back slightly and jump into San He stance on left while punching down with crossed fists, left over right. 
+         Chamber both fists at the waist while drawing up right foot and double strike out while jumping into right bow.
+         Slide back into right cat stance while blocking across body, right hand high, left hand low (palm strikes). 
+         Open up arms, left high and right low, while cross stepping right over left. 
+         Rotate left (west) as you block high with right hand and past left knee with left hand.  
+         Pull in, “fake out”, break arms as you rotate 180 left (to face east) into horse stance, 
+         chop down and rise up finger strike out to both sides while making a bird call.  
+         Cross step right over left to the north while blocking across body, right hand high, left hand low (palm strikes), landing in deep stance. 
+         Open up arms, left high and right low.  
+         Rotate 180 left (to face west) as you block high with right hand and past left knee with left hand.  
+         Cross step right over left while pulling with both hands, straight leg kick left. 
+         Step onto left leg and bring right elbow to right knee/chop.  Land right bow facing south.  
+         
+         Rotate 180 counter clockwise to face north, ending in reverse right bow with single finger strike left. 
+         Clear with both hands (outwards) and double finger strike out while landing in deep right bow.  
+         Step back to deep left bow while elbowing high with right arm, right fist in left palm. 
+         Step up with left foot into natural stance while elbowing back right, right fist in left palm.  
+         Cross hands right hand in front of left, lift up while breathing in. 
+         Separate hands at bottom of breath, lift talons up and down. 
+         Bow" />
+    
+    <add key="form9detail"  value="
+         Bow, elbow back right arm with right fist in left palm.  
+         Bring crossed right fist over left palm up while breathing in, press down while breathing out; bring flat hands up, then push flat hands down while inhaling/exhaling.  
+         Dragon step left (west) and circle block with left arm, blade hand.  
+         Step into right bow facing west, block high with right arm and left finger strike low.  
+         Unwind arms clockwise while stepping right foot back into left bow, right arm blocking high and left hand blocking low.  
+         Dragon step right (east) and circle block with right arm, blade hand.  
+         Step into left bow facing east, block high with left arm and right finger strike low.  
+         Unwind arms counter clockwise while stepping left foot back into right bow, left arm blocking high and right hand blocking low. 
+         Look high left (north), monkey grab with left on top and right underneath and right knee.  
+
+         Step forward into right bow, single finger strike with right hand.  
+         Shift right leg back into reverse right bow, single finger strike with left hand.  
+         Cross step right over left while pulling with both hands, straight leg kick left. 
+         Land right bow while clearing high with left hand, elbow/chop with right hand. 
+         Turn 180 to the left (south) ending in right reverse bow, clearing with right hand and left hand finger strike. 
+         Block high with top of left hand while stepping into right bow and palm strike to groin with right hand (look opponent in eyes), then finger strike to eyes. 
+         Step back with the right into a horse stance, chop down and rise up finger strike out to both sides while making a bird call. 
+
+         Shift weight into right bow, X- block across knees with left on top of right arm.  
+         Step west into left bow, chopping past knee with left hand and blocking head with right. 
+         Step west into right bow, chop high right, then left. Step back with the right into a horse stance (north), chop down and rise up finger strike out to both sides while making a bird call. 
+         Shift weight into right bow, X- block across knees with left on top of right arm.  
+         Step east into left bow, chopping past knee with left hand and blocking head with right. 
+         Step east into right bow, chop high right, then left.  Look high left (north), monkey grab with left hand on top and break with right underneath, shifting weight into left bow.  
+         Right knee, land in right bow facing north with right hand Phoenix Eye.
+
+         Rotate 180 counter clockwise to face south, ending in reverse right bow with single finger strike left.  
+         Vertical block out with left forearm, step through to right bow as you vertical block across the body with right arm.  
+         Block up with right arm, reverse punch left low.  Front snap kick with left leg (blocking groin with left arm. 
+         Pivot 180 clockwise to face north as you vertical block left across the body and finish in right bow, right fist chambered at hip.  
+         Open up the body with the left arm as you step back with right into right cat stance; close again with left block across the body while stepping back into left bow with right foot.
+
+         Step out left, then into a right bow while clearing high with left hand, elbow/chop with right hand.  
+         “Wax on, wax off”: small circular clockwise block with right hand, followed directly by a wide circular block; at the top of this block, end with a front sweep/back sweep with the right leg and hammer fist down with the right hand (left hand also in a fist, blocking temple). 
+         Turn body to the left 90 (east) while blocking ribs with right elbow.  
+         Right front snap kick to the south with the right leg.  
+         Rotate left 180 (north), then into a right bow while clearing high with left hand, elbow/chop with right hand.
+         
+         Cross step right over left to the south (another 180) for palm strikes, right high, left low. 
+         Open block with left hand high, right hand low. Switch hands, striking high right and low left.  
+         Left straight leg kick to the south, leaving left hand guarding groin and right hand high. 
+         Step out left (still to the south), then into a right bow while clearing high with left hand, elbow/chop with right hand.  
+         Cross step right over left to the north (another 180) for palm strikes, right high, left low. 
+         Open block with left hand high, right hand low.  Circle arms into a cradle, right on top of left.  
+         Unwind arms clockwise while jumping 180 clockwise (south) and landing in a low bird stance arms (squatting on right leg, left leg broken bird; right hand blocking high and left blocking low in a beak).  
+
+         Shift weight forward into left bow, single finger strike left. 
+         Step out left (still to the south), then into a right bow while clearing high with left hand, elbow/finger strike with right hand.  
+         Step out right (still to the south), then into a left bow while clearing high with right hand, elbow/finger strike with left hand.  
+         “Break across the back”: circle right leg and turn clockwise 180 to the north; leading block with right hand, grab opponents arm and break with left while stepping back on the right foot and landing in left bow. 
+         Step out left, then into a right bow while clearing high with left hand, elbow/finger strike with right hand.  
+         Flip right hand into eagle claw (grabbing and tearing the throat); slide right leg back into a right cat stance, while elbowing backwards with right eagle claw into open left hand.  
+         Slide right foot back slightly, shift weight into left cat stance while you elbowing back with right fist into open left hand. 
+         
+         Bring crossed right fist over left palm up while breathing in, press down while breathing out; bring flat hands up, then push flat hands down while inhaling/exhaling." />
+    
+    <add key="form10detail"  value="
+         SECTION 1:
+         Bow. Inhale while both hand glide up, exhale while hands glide down (similar to rising and falling Tai Chi position). 
+         Step back L into left reverse bow while blocking up with left hand, palm out.  Strike R high (eyes), flick low (groin). 
+         Step forward R into a right reverse bow while blocking up with right hand, palm out.  Strike L high (eyes), flick low (groin).
+
+         Drop into Crane Stance (side of right knee down, inside of right foot flat on ground/left forearm horizontal, right forearm vertical, open palms out).  
+         Alternating block/palm thrust 5x; sixth time block L and hard drop R elbow. Slide up into a right crane foot facing east. 
+         Double finger thrust high (eyes), then low (groin).  Crane roll towards the north (left shoulder and hip to right shoulder and hip). 
+         Drop into Crane Stance (side of right knee down, inside of right foot flat on ground/left forearm horizontal, right forearm vertical, open palms out).  
+         Alternating block/palm thrust 5x; sixth time block L and hard drop R elbow. Slide up into a right crane foot facing east. 
+         Double finger thrust high (eyes), then low (groin).
+
+         SECTION 2:
+         Right cross kick across body to the L, then kick to the right. Cross step R and rotate 180 to face west. 
+         Mule kick L, hop mule kick R with hands in on-guard position.  Without putting R foot down, jump directly into double front snap kick (RL), land in left bow with left spear hand out, right hand blocking the temple, palm out.
+         Step forward R into a right bow while blocking up with left hand, palm out.  Strike R high (eyes), flick low (groin).  
+         Step forward L into a left bow while blocking up with right hand, palm out.  Strike L high (eyes), flick low (groin).  
+         Shift high out of bow stance while remaining on L foot, R foot back in crane stance, double finger thrust high (eyes).  
+         Shift weight back to R foot with L foot in crane stance, clearing outwards with hands, palms transitioning up, then down for double finger thrust low (groin).
+
+         Left cross kick across body to the R, then kick to the left.  Cross step L and rotate 180 to face east.  
+         Mule kick R, hop mule kick L with hands in on-guard position.  Without putting L foot down, jump directly into double front snap kick (LR), land in right bow with right 
+         Phoenix Eye (palm up) and left hand blocking the temple, palm out. Circle Phoenix Eye in and strike back out (similar to #10 Lohan).  
+
+         While remaining in right bow, double hammer fist with right fist down.  
+         Remain in right bow and rotate torso to the west, double hammer fist with left fist down.  
+         Tuck left foot behind right knee and crane roll to the west.  
+         Stand, bow out. " />
+    
+    <add key="form11detail"  value="
+         Section 1:
+         Bow forward, facing North. Step out with left leg into LB, bring left palm around in an outside block (left to right) with elbow bent 
+         45 degrees away from body and right fist chambered at the waist. 
+         Deflect with Left and end with palm up at Tan Tien level as you step into RB; elbow Right, then back fist Right at face level.
+         Still in RB, bring both arms up into X-block (facing West), Right hand in fist, Left hand open and closest to body. 
+         Double hammer fist, focus North (Right).  Bring both hands up in X-block again, both hands in fists and Right hand closest to body. 
+         Hammer fist down again, focus South (Left).
+         Twist Left foot 45 degrees to face South (similar to dragon foot), open Right hand blocking above your head, Left hand down at Tan Tien level, 
+         both palms out. 
+         Sweep forward onto Right foot while arms switch (open Left hand blocking above head and Right arm at Tan Tien level, both palms out).  
+         Leaving Left leg up, pivot 45 degrees to your Right (Southwest), sweep forward onto Left foot while arms switch 
+         (open Right hand blocking above your head, Left hand down at Tan Tien level, both palms out).
+         Step into RB (facing South) as you block down then backfist with Right fist, Left fist chambered at the waist. 
+         Twist Right foot out 45 degrees (Southwest) as you block down then backfist with the Left fist, Right fist chambered at the waist.  
+         Jump sweep Left at 45 degrees (to the South) as you block the middle of your body with both hands palms out, Right hand above Left. 
+         Land on Left foot in White Crane stance - Right leg up, Left arm extended above Left shoulder, palm down, and Right arm down to the Right, palm up.  
+         You should end facing West.
+
+         Section 2:
+         Still in white crane stance, block down with open L hand, palm out; while striking high with right open hand (back of hand).  
+         Block high with L hand, palm out, while striking low with right open hand (back of hand). Both blocks with L hand should arc outside the R.  
+         Step forward into low Right Bow and double fist block down (like #9 sparring technique). Twist Right foot into dragon foot (NE) and block down then 
+         backfist toward North with Left fist, Right fist chambered at the waist. 
+         Jump sweep Left at 45 degrees (to the North) as you block the middle of your body with both hands palms out, Right hand above Left. 
+         Land on Left foot in White Crane stance - Right leg up, Left arm extended above Left shoulder, palm down, and Right arm down to the Right, palm up.  
+         You should end facing East.
+         Still in white crane stance, block down with open L hand, palm out; while striking high with right open hand (back of hand).  
+         Block high with L hand, palm out, while striking low with right open hand (back of hand). Both blocks with L hand should arc outside the R.  
+         Side thrust with Right leg to the South. Block Left, punch Right as you step into a Right Bow, then twist right foot into dragon foot 
+         (SW) and block down then backfist toward the South with your left fist, Right fist chambered at the waist. 
+         Pivot body clockwise on Right foot to the West as you sweep with Left crane foot; left hand should be open at your chest, 
+         Right hand chambered at waist.  Side thrust 45 degree to the Left (to the South West).  
+         Arm trap in front of your body with both hands (facing North) as you side thrust (90 degrees) to the right (East), 
+         then jump to other leg and side thrust to the left (90 degrees). 
+         Bow out. " />
+    
+    <add key="form12detail"  value="
+         SECTION 1
+         Bow.  Shift weight onto the R foot while blocking across body with L palm, L to R.  
+         Shift weight onto the L foot while blocking across body with R palm, R to L.  
+         Flick to eyes with R hand; monkey grab with R hand and pull down (opponent’s shoulder?) while delivering blow to opponent’s 
+         chin with the back of the L hand and shifting weight onto the R foot, L foot in crane.
+         Look over left shoulder, double smash 180 and finish facing south on L foot, R foot remains raised. 
+         X-block in (L hand closest to body), strike out with side hands.  Front snap kick to the L 45 with R foot (shoulder height), 
+         front snap to R 45 with R foot (shoulder height).  
+         Block down with both palms down as you step back with the R foot into L forward bow; double finger strike at eye level while shifting up into high L bow.  
+         Straight leg kick R while both hands block down and back, palms down.
+         Put R foot down, landing in R bow, and break (or x-block) with hands, R hand closest to body.  
+         Clear high with R palm out (thumb down) while sweeping clockwise with L crane foot; L palm also circles clockwise with foot (thumb up) and 
+         ends with horizontal punch (similar to Lohan 10, “churning butter”) in a R reverse bow to the south.  
+         Come up to R cat stance facing west, X-block with both fists.  
+         Block L temple with L fist, palm out, while sweeping clockwise with R crane foot; R palm also circles clockwise with foot (thumb down) and 
+         ends with horizontal punch (similar to Lohan 10, “churning butter”) in a L reverse bow to the south.  
+         Open L hand; clear high with R palm out (thumb down) while sweeping clockwise with L crane foot; L palm also circles clockwise with foot (thumb up) and 
+         ends with horizontal punch (similar to Lohan 10, “churning butter”) in a R reverse bow to the south.  
+         End in crane stance (R knee down); horizontal block with L forearm above head; vertical block with R forearm at head level.
+         
+         SECTION 2
+         Raise up onto L foot and rotate 180 on R foot to face north while delivering R backfist.  L backfist, block down, then backfist again while jumping, 
+         then sweeping with L foot (landing on L foot).  While remaining on L foot, backfist R, hook right (opponent’s neck/shoulder), pull to right knee.  
+         Drop kick onto L side, R leg out.  R roundhouse, R side thrust, spinning leg sweep onto R side.  
+         Sit up (R knee down, L knee up) and stomp L foot while hand remain in on guard position.  Roll back onto R side, L leg out.  
+         L roundhouse, L side thrust, spinning leg sweep onto L side.  
+         Sit up (L knee down, R knee up) and stomp R foot while hand remain in on guard position.  
+         Roll back onto L side, R leg out.  R roundhouse, R side thrust, spinning leg sweep onto R side.  
+         Ensure enough momentum to stand up into horse stance facing east with R horizontal fist at temple and L vertical fist at chest height.  
+         #10 Lohan (churning butter). 
+         Turn into high L bow facing north and block down with both palms while sinking into low left bow; double finger strike at eye level 
+         while shifting up into high L bow.  Straight leg kick R while both hands block down and back, palms down.  
+         Put R foot down, landing in R bow and break (or x-block) with hands.  
+         Bow out." />
+    
+    <add key="form13detail"  value="
+         SECTION 1:
+         Bow, breathe in while bringing fists in at chest level, while lifting left leg slowly.  Step out with L foot while breathing 
+         out with dynamic tension and “swimming” out with hands, palms out.  Breathe in while stepping up with the right foot bringing
+         fists in at chest level.  
+         Slide out left to horse stance while breathing out with dynamic tension, pushing horizontal fists out.  
+         Break to the left with fists, R reverse punch high and L block low, while placing bottom of R foot into back of L knee. 
+         Unwind clockwise into high bird stance, R hand palm high, L hand beak low.
+         Block down R, punch L while stepping into left bow stance to west.  Twist hit R, twist hit L.  
+         Monkey grab L (back of neck) and step through to the west into right bow (facing south), hitting R backfist into left palm at face level.  
+         X block with forearms (R in front of L) both hands in fists while cross stepping L behind right, finish with hard double elbows.  
+         “Brush” off L open hand over R fist while stepping out R, landing left bow with R elbow out and open L hand at temple.
+         Clear and punch R to the west, shifting into R forward bow stance, L fist chambered at waist.  #18 Lohan up to strike out and pivot foot; 
+         front sweep L then jump into horse stance facing south, L fist chambered at temple, R fist punching out.  
+         Step up with L foot to natural stance and elbow R, cupping R fist in L palm.  
+         Step out to horse stance, L hand chambered at temple and R fist punching out with thumb down.  
+         Clear (block) R, punch L (R fist chambered at waist), punch R (L fist chambered at waist), #18 Lohan up to strike out and pivot foot.  
+         Front sweep L across body and pivot 180 to face east in a right cat, while bringing L hand up, palm up and chopping down 
+         across your mid-section, with right palm up.  
+         
+         SECTION 2:
+         Front snap kick right facing east; without putting foot down, go directly into a single smash with left leg 
+         (clear/strike with right knee) land in left bow.  Block R, punch L, #18 Lohan all the way to arm assisted sweep, 
+         end in right forward bow, block L, punch R.  
+         Shift into horse stance facing north, block down with both forearms, hands in fists, palms up.  
+         Look over R shoulder, 360 degree double smash, turning clockwise.  
+         Land again in horse stance facing north, then turn into right forward bow to the west, block R, punch L.  
+         Reverse punch R and kick L ending in left forward bow, block R, punch L.  #18 Lohan all the way to arm assisted sweep, 
+         ending in right forward bow.  Punch R, L, double front snap kick (LR), ending in right forward bow facing east, block L, punch R.
+         Double block (LR) past the L knee, then shift into left forward bow facing west, punch L, ending with right fist blocking at the right temple.
+         Shift to horse stance facing north and x-block high.  
+         Double block (LR) past the L knee, then shift into left forward bow facing west, punch L, ending with right fist blocking at the right temple.  
+         Step through with right into right forward bow, block L, punch R.  Grab opponent head with left hand as you shift into horse stance facing 
+         south and deliver backfist into left palm at tan tien level.
+         
+         SECTION 3:
+         Block R, punch L towards the west while stepping through into left bow. Block L, punch R while stepping through into right bow. 
+         Block R, punch L while stepping through into left bow. Double block (RL) past the R knee, then shift into right forward bow facing east, 
+         punch R, ending with left fist blocking at the right temple. 
+         Complete #17 Lohan (step up L into natural, step out R into right bow).  
+         #18 Lohan on left side of body while in right bow up to strike out.  
+         Block R, punch L while remaining in right bow and #18 Lohan on right side of body up to strike out.  
+         Jump onto left foot, uprooting sweep with right foot, land in right forward bow facing east, block L, punch R.  
+         #26 Lohan towards the east ending in L roundhouse, block R punch L while stepping into left forward bow, still to the east. 
+         #18 Lohan all the way to arm assisted sweep, ending in right forward bow.  
+         Punch R, L, double front snap kick (LR), ending in right forward bow facing east, block L, punch R.  
+         Double block (LR) past the L knee, then shift into left forward bow facing west.  
+         Continue unwinding arms over the top while shifting into L crane foot, weight on right foot.  
+         End with L hand beaking down and R palm striking out.  
+         Bow." />
+    
+    <add key="form14detail"  value="
+         1st Section 
+         Step up with left foot into bird as you circle arms out to in bringing palms up (facing up) to solar plexus.  
+         Step forward with right foot up and chop down to waist 
+         Step out left and block with left arm, step through right as you deliver a right side hand bringing left side hand to hollow of shoulder.  
+         Turning to face south, lift right leg to avoid sweep as you block past right knee and blocking/deflecting with high left flat hand. 
+         Backsweep right as you throw right elbow strike before delivering another elbow and backfist with right. 
+         Step around and through with left at a 45 delivering left side hand bringing right side hand to hollow of right shoulder 
+         Deflect past your face left/right as you xstep right behind left and step through, ending left foot forward facing west, 
+         delivering left side hand. Inside smash right and x-block high with flat hands (right hand in front-it's a spinning arm break); 
+         end in forward right bow. 
+         Xstep left behind right stepping through right delivering right side hand as you bring left side hand to hollow of left shoulder, 
+         still facing west. 
+         Cradle arms with right hand on top and unwind as you pivot 180, ending in  left cat facing east while blocking low with left flat 
+         hand above left knee and high with right flat hand. 
+         
+         2nd Section
+         Front snap kick left, slide out left with open hands on-guard, jump onto right leg and front sweep left then backsweep right 
+         immediately as you throw right elbow strike. 
+         Pivot right 180 with right elbow into double side hand chop at opponent face in right fwd bow. Grab head and left thrust kick 
+         to body settling into left forward bow as you deliver left side hand bringing right side hand to hollow of right shoulder. 
+         Right inside smash into right fwd bow delivering right side hand bringing left to hollow of shoulder. 
+         Xstep left behind right into left fwd bow delivering left side hand bringing right to hollow of shoulder (no step through).
+         Circle arms and slam to ground with left hand as you turn into crouching position with left foot in monkey – this one faces forward (north).
+         Look over left shoulder and deliver double smash ending left foot forward with left side hand and facing west (450 degree rotation).
+         Pivot left foot, deflect with left and striking opponent face with right open hand (almost like Lohan #26) as you spin into right 
+         front sweep/left backsweep combo.  End in left fwd bow delivering left side hand and bringing right to hollow of shoulder (ends facing west). 
+         Pivot 180 to the right, bringing right foot into cat and unwind arms so that you strike the top of your right hand with a downward left elbow strike.
+
+         3rd Section
+         Front snap kick right slide out right with side hands in on-guard position right hand forward.  
+         Jump to left foot and front sweep right then immediately backsweeping left as you throw left elbow strike. 
+         Turn into left fwd bow and block up with left forearm.  Xstep and bring blocking arm low and delivering right reverse punch over blocking arm. 
+         Step left and block high left.  Xstep and reverse punch right over blocking arm.  Step left and block high.
+         Deflect with left as you step left and strike opponent face with right open hand as you spin into right frontsweep left backsweep combo 
+         ending in left fwd bow facing west.
+         Turn and circle arms into low monkey stance slamming with left hand – this one faces east. 
+         Look over left shoulder and deliver double smash ending in left fwd bow facing west, delivering left side hand – 540 degree rotation.
+         Deflect with left open hand as you shuffle left foot backward/forward to deliver right side hand ending with right foot back in jade ring
+         stance down to R knee.
+         Turn into right fwd bow and punch left.  Reverse punch (right) kick (left) into left fwd bow.  Deflect with right and chamber it, 
+         punch with left so you end with left leg and arm forward facing east.  
+         Perform wrist twist and right front sweep like Lohan 18.  End in right fwd bow and punch right then perform wrist twist and 
+         right front sweep ending in left forward bow with side hands on-guard left side hand forward. 
+         Pivot to right 180, deflect past the face left/right as you shift into right fwd bow (facing west) striking with right side hand 
+         (*just shift into right fwd bow as you deflect...resist the urge to step through). 
+         Deflect with right as you step out with right foot at 90 degree angle (facing north)...bring left beak over and down 
+         (like you are pulling an attacking limb down-think beginning of yellow belt bird form) 
+         delivering right side hand as you bring left bird foot around and up.
+         Bow out. " />
+    
+    <add key="form15detail"  value="
+         SECTION ONE:
+         Raise backs of claws high as you raise left knee, step out to left forward bow and tear down with claws.  
+         Bring right leg up into natural stance while circling arms around for double arm break, ending with claws under shoulders, palms up.  
+         Slide left leg out to horse stance as you press claws out to sides.  Block down with left arm and strike over with right while 
+         back-trapping with right foot behind left.  Withdraw into right cat stance while circling arms clockwise (rib spreader), 
+         ending with right hand at right temple and left hand on-guard. 
+         Shift into left fwd bow and block with left/rake 2x with right, grab with right, knee with right knee.  
+         Pivot to south and x-block right in front at chest level, triple attack (kick right), block down with both hands and land in right bow, 
+         blocking high R, low L.  Shift into horse stance and push (block) out with forearms.  
+         Lift right leg scoop/sweep with right arm and stomp down on fallen opponent with right monkey foot.  
+         Jump 180 to face north, land in horse with claws to west and double strike with blow claws to west.  
+         Come up in horse stance, break/twist (block) with left arm, groin tear with right withdraw into right rev bow.  
+         Tear groin to temple with right/left claw guards midsection.
+         
+         SECTION TWO:
+         Break/twist (block) with left hand and step through with right leg into right forward bow breaking opponent arm from underneath with right.  
+         Rotate south, chop down right as you shift into left reverse bow (block L temple with L claw), chop down left as you shift into 
+         right reverse bow (block R temple with R claw).  
+         Break/twist with left arm as you club down with right forearm (ends looking kind of like a nasty holding ball left) pulling into 
+         right cat stance.  Shift into right forward bow as you palm/claw strike with left hand while blocking temple with right.  End facing west.
+         Still facing west, ride the tiger (step back right as you drop left claw/raise right claw-shift weight to right foot-position 
+         yourself in left cat stance as you drop right claw/raise left claw, drop left claw/raise right claw).  
+         End with right claw blocking high above head to prep for next move.  
+         Block out with left palm out and strike over the top with right claw/palm to bridge of nose and deliver right thrust kick.  
+         Land in right forward bow (facing south) and strike out with left at 45 (southwest), blocking temple with R.
+         Step forward 45 (southwest) into right bow as you elbow R, striking L hand.  
+         Rip off left ear with right hand (facing south), rip off right ear with left hand.  
+         Block/strike down with left to the south, grab with left and roundhouse left to the south.  
+         Don’t put left foot down after roundhouse and single smash right (facing west).  
+         Don’t put down right foot after smash and hop to right as you clap opponent ears while mule kicking with left leg (body should be horizontal).
+         Set down left leg behind you and fall into right forward bow facing west with claws on guard.
+         
+         SECTION THREE:
+         Spin out counterclockwise, step through right to the east, and double smash east landing with right leg forward in horse stance facing north, 
+         left arm high, right guarding torso.  Drop both elbows into torso hard. Tiger tail (deflect x2 then strike with fingers to throat).  
+         Lift right leg and sweep/scoop with right arm and stomp down on opponent with monkey foot.  
+         Jump 180 to face south, land in horse with claws to east and double strike with blow claws to east. 
+         Twist/break (block) with left to east and groin tear/strike underneath with right as you shift into left forward bow.  
+         Clap left hand with right as you rotate clockwise and shift into right forward bow, palm strike to the west with left claw, 
+         blocking right temple with right.  
+         Block down with left claw and thrust kick left to the west, (clear/block strike with left as you land) and fall into left forward bow with 
+         right claw blocking at temple, left claw striking out.
+         Elbow with right as you bring right foot into monkey facing east.  
+         Rake and grab opponent head with right (facing north) as you knee with left.  
+         Without putting left foot down, X-block down with right in front (really positioning for neck break) as you slide left foot back into 
+         low right fwd bow (facing north).  Slide right foot back and assume natural stance as you circle right arm outward and upward (
+         rib spreader-completing neck break) and left arm downward and out finishing with left hand low and right hand high with right 
+         palm facing north by right temple and left claw facing south by waist.
+         bow] " />
+    
+    <add key="form16detail"  value="
+         Bow : Military salute : Look to the left : Kick Ch’ang left with right foot : Jump into a left bow stance : 
+         Block high : Block low : Block to the right : Slide Ch’ang down so the right side is the longer side : 
+         Jump 180 into a reverse left bow : Do one clockwise circular block : Step left foot behind right, while doing a clockwise circular block :  
+         Stand up on left leg, while pulling ch’ang back : Step Down into left reverse bow while striking out with ch’ang : 
+         Strike high with ch’ang(Right hand leading) : Slide Ch’ang down so the left side is the longer side : Jump 180 into a reverse right bow : 
+         Do one counterclockwise circular block : Step right foot behind left, while doing a counterclockwise circular block :  
+         Stand up on right leg, while pulling ch’ang back : Step Down into right reverse bow while striking out with ch’ang : 
+         Strike high with ch’ang(Left hand leading) : Slide Ch’ang down so the right side is the longer side : Jump 180 into a reverse left bow : 
+         Do one clockwise circular block : Step left foot behind right, while doing a clockwise circular block :  
+         Stand up on left leg, while pulling ch’ang back : Step Down into left reverse bow while striking out with ch’ang : 
+         Strike high with ch’ang(Right hand leading) : 
+         Pull right leg up into cat stance, while flipping ch’ang so left hand is the leading hand(Ch’ang should also change 
+         length so left side is longer) : 
+         Turn 180 still in a right cat : 
+         Step out into right bow while striking down with right hand leading(Ch’ang should also change length so right side is longer) : 
+         Step out into left bow while striking down with left hand leading(Ch’ang should also change length so left side is longer) : 
+         Step behind left leg with right into a low monkey planted stance,
+         While unwinding ch’ang from left side blocking behind back(Right hand hold on low on ch’ang while left blocks in front of body : 
+         Grab ch’ang with left hand then move right hand to grab under left : 
+         Smash ch’ang down level to the ground : Jump 360, while circling ch’ang low then high : 
+         Land in reverse right bow(Ch’ang blocking in front of body parallel to left leg and right shoulder) : 
+         Lean into left bow while striking down with right hand leading(Ch’ang should also change length so right side is longer) : 
+         Step into right bow while striking down with left hand leading(Ch’ang should also change length so left side is longer) : 
+         Step into left bow while striking down with right hand leading(Ch’ang should also change length so right side is longer) : 
+         Slide left leg up into a natural stance, while striking down with ch’ang on right side left hand blocks out left : 
+         Lift left leg up, while blocking across body with ch’ang(Left hand should be in a china hand in front of chest : 
+         Jump 180 while circling ch’ang high once : Land in reverse right bow(Ch’ang blocking in front of body parallel to left leg and right shoulder)
+         Lean into left bow while striking down with right hand leading(Ch’ang should also change length so right side is longer) : 
+         Step into natural stance, while cradling ch’ang(Left in front palm down right behind palm up) : 
+         Slide right leg out into horse stance, while stabbing out with ch’ang to the right side : 
+         Flip ch’ang behind back, while jumping 180 into a horse stance : Strike out high with ch’ang left hand leading : 
+         Spin ch’ang so right hand is on top : Table top spin(Lean back while block clockwise over body with ch’ang) : 
+         Spin ch’ang so left hand is on top : Table top spin(Lean back while block counterclockwise over body with ch’ang) : 
+         Lean into right bow, while ch’ang blocks behind the body : Chop out with left hand in front of body : 
+         Double front snap kick(Left foot than right foot) : Table top spin(Lean back while block clockwise over body with ch’ang) 
+         so left hand is on top : Unwind ch’ang, while stepping behind left leg with right leg : Stab out low with ch’ang : Turn around : 
+         Step into a right bow, while striking down with right hand on top(Ch’ang should also change length so right side is longer) : 
+         Step into a left bow, while striking down with left hand on top(Ch’ang should also change length so left side is longer) : 
+         Step into a right bow, while striking down with right hand on top(Ch’ang should also change length so right side is longer) : 
+         Step into a left bow, while striking the ground with the end of the ch’ang : Slide left leg and ch’ang 180 into a horse stance : 
+         Slide left hand down on ch’ang, while blocking behind back with ch’ang : Pop ch’ang off of the right shoulder : 
+         Jump 180, while grabbing ch;ang with left hand and strike down : 
+         Step 180 with left foot into a left bow, while striking down left hand leading(Ch’ang should also change length so left side is longer) : 
+         Step with right foot into a right bow, while striking down right hand leading(Ch’ang should also change length so right side is longer) : 
+         Step with left foot into a left bow, while striking down left hand leading(Ch’ang should also change length so left side is longer) : 
+         Step with right foot into a right bow, while striking down right hand leading(Ch’ang should also change length so right side is longer) : 
+         Step with left foot into a left bow, while striking down left hand leading(Ch’ang should also change length so left side is longer) : 
+         Slide left foot back into a right bow stance, while striking up with right side of the ch’ang(Ch’ang should also change length so right 
+         side is longer) : 
+         Slide right foot back into a left bow stance, while striking up with left side of the ch’ang(Ch’ang should also change 
+         length so left side is longer) : 
+         Slide left foot back into a right bow stance, while striking up with right side of the ch’ang(Ch’ang should also change 
+         length so right side is longer) : 
+         Slide right foot back into a left bow stance, while striking up with left side of the ch’ang(Ch’ang should also change 
+         length so left side is longer) : 
+         Slide left foot back into a right bow stance, while striking up with right side of the ch’ang(Ch’ang should also change 
+         length so right side is longer) : 
+         Step behind with right foot, while blocking back with ch’ang(Right hand fingers facing down left hand fingers facing up) : 
+         Turn around into natural stance, while unwinding ch’ang : Ch’ang should end up in left hand
+         Bow out. " />
+    
+    <add key="form17detail"  value="
+         Section 1:
+         Bow(Tip of kuen should be on the ground) : Kick kuen left with right foot : Clockwise circular block, while stepping into a left bow, 
+         Cha out to west. Step out right to north while doing a La to the north. Rotate 180 to south while cradling the kuen, Cha out to west. 
+         Flip kuen behind back while jumping 180 to face north into a reverse right bow. Lean into a left bow and Cha out to west.  
+         Step out left to north while doing a La to the north. Rotate 180 to south while cradling the kuen, Cha out to west. 
+         Flip kuen behind back while jumping 180 to face north into a reverse right bow. Lean into a left bow and Cha out to west.  
+         Step into right bow, while striking up with butt end of kuen. Step into left bow while striking down and Cha out west.  
+         Flip kuen behind back , jump into a reverse right bow stance, Cha out west.  Cross step right in front of left (La) to the west.  
+         Step into a reverse left bow and Na down. Lean into a left bow and Cha out.  Repeat. Cross step right in front of left and La, Na, 
+         then rotate to south and shift into a right bow stance and Cha out west. 
+         
+         Section 2:
+         Slide left hand under kuen and press it down on the left side. Lift kuen and press down in front of body; Cha out to south. 
+         Slap kuen on the ground and press down with left hand.  Flip right wrist so kuen blocks across body (butt end blocking left 
+         side and tip blocking low right side). Step into left bow, while flipping kuen in front of body, Cha out south.  
+         Stand up into a natural stance facing west; slap kuen down to the right side.  Flip kuen in front of body, while jumping 180 into 
+         a left bow stance, cha out. Shift into a right bow facing south while striking high with the butt end of the kuen. 
+         Step through into left bow, while circularly blocking across body with kuen, Cha out south.   
+         Pull in kuen and left leg (left leg should end up in a left cat stance). Jump 45 degrees to the left, 
+         should end up standing on left leg. Step out into horse stance, Cha out to the west.  
+         
+         Section 3:
+         Flip kuen in front of body, while jumping 180 to the north into a horse stance, hit over the top (
+         kuen should end up striking down with the butt end to finish the flip in front of the body). 
+         Unwind kuen, while jumping back around to the south, cha out to the east. 
+         Rotate back to north while bringing right leg up to stand only on the left leg, while cradling the kuen. 
+         Step down with right leg into a horse stance, Cha out to the east.  
+         Flip kuen in front of body, while stepping 180 into a horse stance(The kuen should end up striking 
+         down with the butt end to finish the flip in front of the body) : 
+         Hook right foot into a monkey stance, while cradling the kuen : 
+         Slide right foot out into a horse stance : Cha out to the right : 
+         Flip kuen  behind the body, while stepping left 180 into a horse stance(The kuen should end up 
+         striking down with the butt end to finish the flip in front of the body) : 
+         Unwind kuen as the left foot steps around 180 into a horse stance : Slide left foot out, while doing a La to the right : 
+         Slide back into natural : Kuen should be in left hand : 
+         Bow " />
+    
+    <add key="form18detail"  value="
+         Section 1:
+         Bow forward, then military salute with left hand down at side, parallel to the ground, looking left. 
+         Kick the stock of the Kwan Tao left with the right foot, swing Kwan Tao in front of body right to left while 
+         stepping into left bow stance, then back around to the right and over back (Kwan Tao presentation).  
+         Unwind while stepping into right bow and slice down, East, earth down.
+         Turn to face West in left bow stance, flipping Kwan Tao earth up and behind you (bs). 
+         Step right, cut over with Kwan Tao and to left side.  Cross step behind (left behind right), 
+         cut around in a 360 arc, end facing West, (first cut left, then rip up right).  
+         Cross step opposite way, right behind left and cut down, earth down (finish facing West). 
+         Similar to short stick stepping sequence Pivot 180 to face East in left bow stance and turn earth up. 
+         
+         Section 2:
+         Take three steps forward (knees high, stomping), starting by cross step right. 
+         End facing East in a right bow and cut down/strike out, earth down. General Kwan Serves the Tea, 
+         three times starting to the South (ensure blade remains horizontal to ground like a serving tray; 
+         performed in bow stances). End facing North.
+         Step up, natural stance, presenting Kwan Tao straight across chest with blade on the right. 
+         Mantis step left as you start the Cut of a Thousand Heads. (mantis, natural, mantis). 
+         Swing Kwan Tao back to right and around to back for Kwan Tao presentation in left bow stance. 
+         Unwind while stepping into right bow; turn 180 to face west in left cat stance, earth down. 
+         Cut kicks x 5 to West (starting left leg, 2x). 
+         Cut down/strike out, ending in right bow stance to West, earth down. 
+         Pivot 180 to face East in a left cat stance earth down, spear end high.
+         
+         Section 3:
+         Take six running steps forward (start left foot), end right foot on 6th step. 
+         Cut under and to the left, then over top to cut down (jump 180 degrees), 
+         end facing South in horse stance with blade to the West, earth down.
+         Bring Kwan Tao up, blade parallel to the ground; back cross step with stab/cut 5x, ending facing North. 
+         Rip right to left across body, then slide right foot 180, facing south.  
+         Then do the Kwan Tao presentation (you should end up facing South, with blade West). 
+         Unwind from presentation, blade West, earth down, still facing South.
+         Rotate blade so earth faces upward, cross step right foot behind left, unwind Kwan Tao, while hopping to a 
+         left mantis stance facing East, while cutting to the side right with the Kwan Tao, earth down (funky mantis thing). 
+         Unwind and cut down to face West in a right bow stance.
+         Raise right foot and Kwan Tao jump forward 360 while cutting up then slicing down with the Kwan Tao 3x. 
+         End by doing one leap/cut back the other direction. You should end up facing South, in horse stance.
+         Pivot 180 to face North with the right foot and do the Kwan Tao presentation (high).  
+         Unwind and swing Kwan Tao over back, from left to right (no stab out), with blade ending just up the right shoulder. 
+         Pop the Kwan Tao up with your right shoulder, grab with right hand, then grab left and down staff, 
+         cut down and to the left as you end in a left bow stance. 
+         Step up right, rip back up to the right, raising the Kwan Tao straight up on your right side and 
+         lifting your left foot up to rest behind the right knee. Bring Kwan Tao down to the right and step into natural stance
+         Bow." />
+    
+    <add key="form19detail"  value="
+         Start with Broadsword cradled in left arm, bow.  Slide to Left Bow circle hands blocking down, slide up to Cat Stance 
+         (left leg cat) circling hands up twice, blocking up, slide to Left Bow blocking down. 
+         Pull “Dart” from left sleeve, Hop into a right reverse bow facing left looking left as you throw the “Dart”. 
+         Jump left slapping right hand on right thigh. Upon landing slash with broadsword left (horizontal to the ground) and punch right.  
+         Land hilt of broadsword on right wrist: Lean into right reverse bow right hand blocking head.  
+         Cross step (left leg in front of right leg) while bringing the hilt onto the right hand to prep to grab.  
+         Grabbing sword in right hand, hop onto right leg while blocking up (above head), block down below left knee.  
+         Step down left, while blocking left, hop to right foot while bringing broadsword over back, hop left foot while cutting fully 
+         across the mid-section with broadsword ending with the broadsword blade facing left and your left hand is covering right. 
+         
+         Turn to right cat, front snap kick right, slide out to right bow.  Cut horizontally right (cut 180 degrees) hop after cut, 
+         block around the head and cut down from head, land in left bow facing west.  Pull up left foot (with broad sword blade facing out).  
+         Step left, right, left, ending in left bow bring broad sword in arc stab down (stabbing opponents left foot), left hand is down in beak.  
+         While still in left bow cut down beside right leg while blocking head with left hand. Scoop broad sword (blade facing up).  
+         Turn, natural stance while placing left palm on bottom of hilt, double snap kick (left right).  
+         Stab straight, using left hand to push the blade. Pop hilt with left hand to flip blade and block up while hopping onto 
+         right leg while blocking high and low below left knee. Step down left, while blocking left, hop to right foot while bringing 
+         broadsword over back, hop left foot while cutting fully across the mid-section with broadsword ending with the broadsword 
+         blade facing left and your left hand is covering right -- land back (right) foot in monkey foot. Sweeping cut across ankle, 
+         sweep cut again and use momentum to spin around (450 degrees) into horse stance facing north with broadsword above head.
+         
+         Block left with broadsword and continue block around body.  Once at the end of the spin pop broad sword over right shoulder 
+         and land in right cat facing west, cutting down with left hand on top of blade. Turn left (south) and go into a left bow 
+         while cutting left (mid section cut). Pull right foot up into right Cat stance facing west.  Front right snap kick, slide out to right bow. 
+         Spin around cut across body, block around back and cut down into left bow, finishing facing east.  
+         Shift weight to right bow, bringing broadsword over the top in 180 arc from left to right, ending with left hand on top of broadsword.  
+         Shift to left bow while blocking head.  Cross step right over left while cutting under and spinning 180, ending facing west 
+         in right cat with left hand on top of blade.
+         Turn left (south) and go into a right bow while cutting left (mid section cut).  
+         Pull back into left cat stance facing west with left hand on top of blade.  Hide the sword (lift left leg to cover sword), 
+         stab out while guarding over right with left hand.  Cross step while placing left hand under hilt of broad sword, triple attack (
+         snap kick left foot, side hand left and stab right with broad sword). Hop into right cat stance, blade down, left hand on top of blade.
+         Turn left (south) and slide to right bow cutting across left. Slide into a left cat stance facing east while slicing down.  
+         Step out left block left, step right while tucking broad sword under left arm, double smash kick.  
+         Land in right bow towards the east, side right hand out.  Slide into right bow facing north while grabbing sword and cutting across body.  
+         Step back with right leg into left bow and cut across right ankle, step back again with left while cradling broadsword in left arm, 
+         bow. " />
+    
+    <add key="form20detail"  value="
+         SECTION 1:
+         Bow, start with ch’a facing behind you and points up. Circle left ch’a up and around front of body, follow with eyes. 
+         Circle right ch’a up and around front of body, follow with eyes.  Vertical block with right ch’a while turning into right bow, jab down left. 
+         Turn to left bow, vertical blocks with both ch’a.  Vertical block with right ch’a while turning into right bow, jab down left.
+         Vertical block with left ch’a, pivot to north on left into right monkey foot while blocking down with right ch’a. 
+         Vertical block with right ch’a, pivot forward on right into left monkey foot while blocking down with left ch’a. 
+         Slide into a left bow, jab left, jab right, flip right ch’a, stab right.  Vertical block with left ch’a, pivot forward on left into right 
+         monkey foot while blocking across right ankle with right ch’a.  Step into right bow while deflecting up with right ch’a, jab left, stab right. 
+         X-block high with ch’a, rotate counter clockwise 180 to the south into a left bow while X-blocking high again. 
+         Rotate clockwise 180 back to north into right bow while jabbing down with left ch’a and stabbing up with right ch’a. 
+         Withdraw right ch’a, rotate counter clockwise 180 to the south into left bow with vertical block with left ch’a and stabbing right.
+         
+         SECTION 2:
+         Step back into left cat while deflecting up with right ch’a.  Step into left bow 45 degrees while deflecting down across right 
+         knee with right ch’a and vertical block with left ch’a. Deflect to the right with right ch’a (lining up right and left handles 
+         horizontally) as you cross step right over left towards east, toes pointing west.  Jump into left bow stance facing west, 
+         jab left, stab right, then flip right ch’a, jab right.
+         Block low with right ch’a down across right knee, block high with left ch’a while lifting right leg and land in right monkey 
+         stance while jabbing down with right ch’a.  Turn clockwise to the north into a right bow, X-block high. 
+         Rotate counter clockwise 180 to the south into a left bow while X-blocking high again. Still facing south,
+         block low with right ch’a down across right knee, block high with left ch’a while lifting right leg and land in right monkey
+         stance while jabbing down with right ch’a.  
+         Vertical block right, jump 180 into a left bow facing north with vertical block across body with left ch’a.  
+         Vertical block left, jump into a right bow while vertical block across body with right ch’a. 
+         Hard flip right ch’a, jab left, stab right. Vertical block with left ch’a, pivot back onto left into right monkey foot 
+         while blocking across right ankle with right ch’a.  Dragon step right (east) while deflecting to the right with right ch’a. 
+         Jump into left bow facing east, jab left.  Step through into right bow, stab right. Rotate north and step back into natural 
+         stance while lining ch’a horizontally on forearms.  Side kick left, then right.  
+         Slide forward into right bow at a 45 degree angle to the right, while blocking across right knee with right ch’a and 
+         vertically with left ch’a.  Jab left, stab right, flip right ch’a.  Slide right foot back into left bow while blocking 
+         both ch’a backwards in a circle. Slide back into natural stance, 
+         bow." />
+    
+    <add key="form21detail"  value="
+          Single Form – Section One:
+
+          (Start facing North)
+          Bow, Left foot crane 
+          Turn Left, block left, place Rt hand on Nunchaku
+          #1 spin, 3 steps, end Rt foot forward
+          Reverse grip, #1 spin upside down Left, right, left single
+          Then double spin left, right, left
+          Turn, face East and spin; front snap kick (Left)
+          Overhand grip change, step right foot forward #2 spin
+          Grip change
+          Reverse #3 spin; Bounce off inside leg, reverse #4 spin
+          Bounce off outside leg, reverse #3 spin
+          Grip change, catch under arm
+          Double front snap kick
+          Jab out “jab out”
+          Monkey roll forward, jab out
+
+          Section Two:
+
+          Inside smash, left leg
+          Side thrust right leg facing north
+          #3 spin right hand, right foot forward
+          Step left #3 spin left hand
+          No step switch to right hand #3 spin
+          Turn, face south, switch to #4 spin
+          Bounce off back catch under right arm
+          Look over left shoulder spin double smash
+          End facing south (same direction)
+          #5 Strike south (right bow)
+          #5 Strike east (right bow)
+          Left hand block north
+          Double front kick
+          Double strike forward, let go with right hand
+          #4 left hand to a #6
+          Step west to a #7 right foot forward
+          #3 spin bounce off leg, #4, #3, #4
+          Start a #8 spin as you turn and face south
+          Finish the #8 spin and end facing east, left foot forward
+          Do another #8 spin, step right foot forward.
+
+
+          Section Three:
+
+          #9 spin facing north
+          #8 spin
+          #10 spin (martial, so just 3 or 4 spots)
+          Move into a #3 spin, bounce off arm and turn to face south
+          #4 spin, bounce to a  #11
+          #11 spin, step
+          #12 spin (between legs) punch south (Right backfist)
+          #12 spin (between legs) punch north (Right backfist)
+          #13 spin (alternate move OK) step right facing south
+          #13 spin again and step
+          #14 spin catch under arm behind (right)
+          #15 spin (waterfall right)
+          Cross to left #15
+          Cross back to right #15 spin
+          #16 catch under right leg, back fist
+          Grab er chei kuen from behind leg with right hand
+          Do a #17 spin (like a backhand #5)
+          Step up, bow
+
+
+
+
+          Double Form (continue from single)
+
+          Section One:
+
+          [step up left crane foot, bow]
+          Grab both for double #1 spin
+          As you spin, step right, left, right
+          Stay in right foot forward bow
+          #2 spin once, then dazzle
+          Grab both, then sparring technique #16
+          Razzle dazzle
+          Grab both
+          Left inside smash, spin to right side thrust
+          Facing west right front bow, deep stance
+          “set down” er chei kuen
+
+
+
+
+
+
+          Section Two:
+
+          Drop kick (right)
+          Sweep/sit up show er chei kuen. Left leg forward
+          Back barrel roll
+          Left scoop the opponent’s foot.. TaDa
+          Double #3 spin left foot forward
+          As you spin, step right, left, right
+          Double front snap kick
+          Double #5 strike
+          Front  sweep right, back sweep left
+          End in right bow, strike left low, right high
+          #4 spin three steps to the east
+          End in right monkey foot (left high and right at waist left side)
+          4 cut move to end in left monkey foot
+          Double slice spin around clockwise end facing west
+          One cut step (cross step behind)
+          One cut step (cross step behind) left side forward
+          Double #8 spin in place
+          Double #8 spins step right, left, then right
+          4 cut turn to face east
+          Tornado spin 5 steps
+          4 cut turn 270 degrees end facing north
+
+
+
+          Section Three:
+
+          Unwind right arm to cross both in front
+          Unwind open out then cross in front again
+          Switch arms – times total
+          Double #15 waterfall spin
+          Step, cross over double #15 spin
+          Step again, open up #15 spin
+          End in horse stance facing forward (north)
+          Double #2 spin
+          Razzle
+          Razzle dazzle
+          Step up
+          Bow to end." />
+    
+    <add key="form22detail"  value="Form Details" />
+    <add key="form23detail"  value="Form Details" />
+    <add key="form24detail"  value="Form Details" />
+    <add key="form25detail"  value="Form Details" />
+    <add key="form26detail"  value="Form Details" />
+    <add key="form27detail"  value="Form Details" />
+    <add key="form28detail"  value="Form Details" />
+    <add key="form29detail"  value="Form Details" />
+    <add key="form30detail"  value="Form Details" />
+		
+		<!--  Questions -->
+		<add key="totalYellowQuestions"  value="20" />
+		<add key="totalBlueQuestions"  value="40" />
+		<add key="totalGreenQuestions"  value="60" />
+		<add key="totalBrownQuestions"  value="90" />
+		<add key="question1"  value="What is the meaning of Shao-Lin Ssu?" />
+		<add key="answer1"  value="Young Forest Temple" />
+		<add key="question2"  value="Where was the original Shao-Lin Ssu located? " />
+		<add key="answer2"  value="The foot of Sung Mountain, Honan Province" />
+		<add key="question3"  value="What dynasty was ruling China when the original Shao-Lin Ssu was built?" />
+		<add key="answer3"  value="Northern Wei Dynasty 386 AD - 534 AD" />
+		<add key="question4"  value="Who was the traditional founder of the Shao-Lin Art?" />
+		<add key="answer4"  value="Chinese: Pu Ti Ta Mo  | Sanskrit: Boddhi Darmha  |  Japanese: Daruma" />
+		<add key="question5"  value="In what century did the Shao-Lin founder come to China?" />
+		<add key="answer5"  value="6th century" />
+		<add key="question6"  value="What type of Buddhism was brought to the Shao-Lin Ssu by the Shao-Lin founder?" />
+		<add key="answer6"  value="Chinese: Ch'an | Sanskrit: Dhyana |  Japanese: Zen " />
+		<add key="question7"  value="What is the Chinese name of the 49 excersises that the Shao-Lin founder taught to the Shao-Lin monks?" />
+		<add key="answer7"  value="I Chin Ching" />
+		<add key="question8"  value="What is the meaning of the above term?" />
+		<add key="answer8"  value="Muscle Tendon Change Classic." />
+		<add key="question9"  value="What is the literal meaning of  'CHIN NA'?" />
+		<add key="answer9"  value="Seize and Hold" />
+		<add key="question10"  value="What dynasty was ruling China when the 13 monks rescued the Emporor's son?" />
+		<add key="answer10"  value="T'ang." />
+		<add key="question11"  value="What were the three classes of Shaol-Lin martial artists?" />
+		<add key="answer11"  value="monks, preists, and practitioners." />
+		<add key="question12"  value="What is the name of the region in the abdomen where we focus our breathing?" />
+		<add key="answer12"  value="Tan Tien" />
+		<add key="question13"  value="What is the Chinese term for energy?" />
+		<add key="answer13"  value="Chi" />
+		<add key="question14"  value="Which flap of the uniform jacket goes on top??" />
+		<add key="answer14"  value="Right" />
+		<add key="question15"  value="Which way should the belt knot open?" />
+		<add key="answer15"  value="to the right" />
+		<add key="question16"  value="At what level does a Shao-Lin student become a disciple?" />
+		<add key="answer16"  value="1st degree black belt" />
+		<add key="question17"  value="At what level does a Shao-Lin disciple become a Master?" />
+		<add key="answer17"  value="5th degree black belt" />
+		<add key="question18"  value="Who is the current 10th degree Grandmaster of the Shao-Lin Art?" />
+		<add key="answer18"  value="Grand Master Sin Kwang The" />
+		<add key="question19"  value="What is the meaning of the term 'wu shu'?" />
+		<add key="answer19"  value="'Martial Arts' or 'A gymnastic/acrobatic Chinese sport'" />
+		<add key="question20"  value="What is the meaning of the term 'Kung Fu'?" />
+		<add key="answer20"  value="Mastery through time and effort" />
+		<add key="question21"  value="What are the five animal styles and the aspects they develop?" />
+		<add key="answer21"  value="Tiger: Bones |  Crane: sinews  |  Leapord : muscle |  Dragon : spirit  |  Snake : energy" />
+		<add key="question22"  value="Where were six other Shao-Lin temples located?" />
+		<add key="answer22"  value="Fukien; Shan Tung; Szechuan (omei shan);  Kwang Tung; WuTang; Hua" />
+		<add key="question23"  value="In what three ways were the names of the Shao-Lin styles derived?" />
+		<add key="answer23"  value="t" />
+		<add key="question24"  value="?" />
+		<add key="answer24"  value="t" />
+		<add key="question25"  value="?" />
+		<add key="answer25"  value="t" />
+		<add key="question26"  value="?" />
+		<add key="answer26"  value="t" />
+		<add key="question27"  value="?" />
+		<add key="answer27"  value="t" />
+		<add key="question28"  value="?" />
+		<add key="answer28"  value="t" />
+		<add key="question29"  value="?" />
+		<add key="answer29"  value="t" />
+		<add key="question30"  value="?" />
+		<add key="answer30"  value="t" />
+		<add key="question31"  value="?" />
+		<add key="answer31"  value="t" />
+		<add key="question32"  value="?" />
+		<add key="answer32"  value="t" />
+		<add key="question33"  value="?" />
+		<add key="answer33"  value="t" />
+		<add key="question34"  value="?" />
+		<add key="answer34"  value="t" />
+		<add key="question35"  value="?" />
+		<add key="answer35"  value="t" />
+		<add key="question36"  value="?" />
+		<add key="answer36"  value="t" />
+		<add key="question37"  value="?" />
+		<add key="answer37"  value="t" />
+		<add key="question38"  value="?" />
+		<add key="answer38"  value="t" />
+		<add key="question39"  value="?" />
+		<add key="answer39"  value="t" />
+		<add key="question40"  value="?" />
+		<add key="answer40"  value="t" />
+		<add key="question41"  value="?" />
+		<add key="answer41"  value="t" />
+		<add key="question42"  value="?" />
+		<add key="answer42"  value="t" />
+		<add key="question43"  value="?" />
+		<add key="answer43"  value="t" />
+		<add key="question44"  value="?" />
+		<add key="answer44"  value="t" />
+		<add key="question45"  value="?" />
+		<add key="answer45"  value="t" />
+		<add key="question46"  value="?" />
+		<add key="answer46"  value="t" />
+		<add key="question47"  value="?" />
+		<add key="answer47"  value="t" />
+		<add key="question48"  value="?" />
+		<add key="answer48"  value="t" />
+		<add key="question49"  value="?" />
+		<add key="answer49"  value="t" />
+		<add key="question50"  value="?" />
+		<add key="answer50"  value="t" />
+		<add key="question51"  value="?" />
+		<add key="answer51"  value="t" />
+		<add key="question52"  value="?" />
+		<add key="answer52"  value="t" />
+		<add key="question53"  value="?" />
+		<add key="answer53"  value="t" />
+		<add key="question54"  value="?" />
+		<add key="answer54"  value="t" />
+		<add key="question55"  value="?" />
+		<add key="answer55"  value="t" />
+		<add key="question56"  value="?" />
+		<add key="answer56"  value="t" />
+		<add key="question57"  value="?" />
+		<add key="answer57"  value="t" />
+		<add key="question58"  value="?" />
+		<add key="answer58"  value="t" />
+		<add key="question59"  value="?" />
+		<add key="answer59"  value="t" />
+		<add key="question60"  value="?" />
+		<add key="answer60"  value="t" />
+		<add key="question61"  value="?" />
+		<add key="answer61"  value="t" />
+		<add key="question62"  value="?" />
+		<add key="answer62"  value="t" />
+		<add key="question63"  value="?" />
+		<add key="answer63"  value="t" />
+		<add key="question64"  value="?" />
+		<add key="answer64"  value="t" />
+		<add key="question65"  value="?" />
+		<add key="answer65"  value="t" />
+		<add key="question66"  value="?" />
+		<add key="answer66"  value="t" />
+		<add key="question67"  value="?" />
+		<add key="answer67"  value="t" />
+		<add key="question68"  value="?" />
+		<add key="answer68"  value="t" />
+		<add key="question69"  value="?" />
+		<add key="answer69"  value="t" />
+		<add key="question70"  value="?" />
+		<add key="answer70"  value="t" />
+		<add key="question71"  value="?" />
+		<add key="answer71"  value="t" />
+		<add key="question72"  value="?" />
+		<add key="answer72"  value="t" />
+		<add key="question73"  value="?" />
+		<add key="answer73"  value="t" />
+		<add key="question74"  value="?" />
+		<add key="answer74"  value="t" />
+		<add key="question75"  value="?" />
+		<add key="answer75"  value="t" />
+		<add key="question76"  value="?" />
+		<add key="answer76"  value="t" />
+		<add key="question77"  value="?" />
+		<add key="answer77"  value="t" />
+		<add key="question78"  value="?" />
+		<add key="answer78"  value="t" />
+		<add key="question79"  value="?" />
+		<add key="answer79"  value="t" />
+		<add key="question80"  value="?" />
+		<add key="answer80"  value="t" />
+		<add key="question81"  value="?" />
+		<add key="answer81"  value="t" />
+		<add key="question82"  value="?" />
+		<add key="answer82"  value="t" />
+		<add key="question83"  value="?" />
+		<add key="answer83"  value="t" />
+		<add key="question84"  value="?" />
+		<add key="answer84"  value="t" />
+		<add key="question85"  value="?" />
+		<add key="answer85"  value="t" />
+		<add key="question86"  value="?" />
+		<add key="answer86"  value="t" />
+		<add key="question87"  value="?" />
+		<add key="answer87"  value="t" />
+		<add key="question88"  value="?" />
+		<add key="answer88"  value="t" />
+		<add key="question89"  value="?" />
+		<add key="answer89"  value="t" />
+		<add key="question90"  value="?" />
+		<add key="answer90"  value="t" />	
+	</appSettings>
+</configuration>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
