@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="shaolin">
+</Property><Property Name="Solution File" Value="C:\temp\shaolin\shaolin.sln">
+</Property><Property Name="User Options File" Value="C:\temp\shaolin\shaolin.suo">
+</Property><Property Name="Date" Value="Friday, September 18, 2009">
+</Property><Property Name="Time" Value="10:17 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="shaolin.sln" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin.sln">
+</Event><Event ErrorLevel="0" Project="" Source="shaolin.suo" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin.suo">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\shaolin.csproj" Description="Project file successfully backed up as C:\temp\shaolin\Backup\shaolin\shaolin.csproj">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\shaolin.csproj.user" Description="Project user file successfully backed up as C:\temp\shaolin\Backup\shaolin\shaolin.csproj.user">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\AssemblyInfo.cs" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\chinNaView.cs" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\chinNaView.cs">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\ConfigForm.cs" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\ConfigForm.cs">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\formsView.cs" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\formsView.cs">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\helpText.cs" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\helpText.cs">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\homePage.cs" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\homePage.cs">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\lohanView.cs" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\lohanView.cs">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\MainFlashCard.cs" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\MainFlashCard.cs">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\oneStepView.cs" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\oneStepView.cs">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\printView.cs" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\printView.cs">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\questionsView.cs" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\questionsView.cs">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\spTechniquesView.cs" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\spTechniquesView.cs">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\App.config" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\App.config">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\App.ico" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\App.ico">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\chinNaView.resx" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\chinNaView.resx">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\ConfigForm.resx" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\ConfigForm.resx">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\formsView.resx" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\formsView.resx">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\helpText.resx" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\helpText.resx">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\homePage.resx" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\homePage.resx">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\lohanView.resx" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\lohanView.resx">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\MainFlashCard.resx" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\MainFlashCard.resx">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\oneStepView.resx" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\oneStepView.resx">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\printView.resx" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\printView.resx">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\questionsView.resx" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\questionsView.resx">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\spTechniquesView.resx" Description="File successfully backed up as C:\temp\shaolin\Backup\shaolin\spTechniquesView.resx">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\shaolin.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="shaolin" Source="shaolin\shaolin.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="shaolin.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="shaolin.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="shaolin" Source="shaolin\shaolin.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
